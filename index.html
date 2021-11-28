@@ -8,6 +8,9 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -24,6 +27,13 @@
         </div>
     </nav>
     <article class="container">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <br><a href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
@@ -53,25 +63,34 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="media">
-                        <img src="assets/images/girl-image.png" class="rounded-circle mr-3" height=100 width=100 alt="">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/girl-image.png" class="rounded-circle mr-3" height=100 width=100
+                                alt="">
+                        </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international whiskeys I never knew about.
+                                <p>I've been introduced to more than 10 great international whiskeys I never knew
+                                    about.
                                 </p>
                                 <p>- Jane Doe</p>
                             </blockquote>
                         </div>
+
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="media">
-                        <img src="assets/images/guy-image.png" class="rounded-circle mr-3" height=100 width=100 alt="">
+                        <div class="d-none d-sm-block">
+                            <img src="assets/images/guy-image.png" class="rounded-circle mr-3" height=100 width=100
+                                alt="">
+                        </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
                                 <p>I haven't been sober for months!</p>
                                 <p>- John Doe</p>
                             </blockquote>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -89,7 +108,8 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span
+                                class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -101,7 +121,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -113,7 +133,7 @@
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
