@@ -2,8 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
@@ -48,10 +46,6 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-.quotes-container {}
-
-.features-container {}
-
 /* Page headers */ 
 
 .page-header {
@@ -62,6 +56,10 @@ body {
 
 .page-header h2 {
     margin-top: 0;
+}
+
+.quotes .page-header{
+    margin-bottom: 25px;
 }
 
 /* Block dividers */
@@ -75,6 +73,10 @@ body {
 
 .block-divider--orange {
     background-color: #ff5f00;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider--short {
@@ -165,4 +167,25 @@ body {
 .btn--red:active:focus {
     background-color: #991d03;
     border-color: #991d03;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 40px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#f05f40;
 }
